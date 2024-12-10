@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #000;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #495057 !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn {
+  background: black;
+  color: #fff;
+  border: none;
+}
+.btn:hover {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.query {
+  font-size: 10px;
+}
+
+.food-thumb {
+  width: 5vw;
+  height: 5vw;
+}
+
+.nutrition-facts {
+  border: 3px solid green;
+  border-radius: 12px;
+}
+
+body {
+  background: url(./BG.png);
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+code {
+  font-size: 80%;
+}
